@@ -60,10 +60,10 @@ const Card = props => {
 
 Card.propTypes = {
   card: PropTypes.shape({
-    headline: PropTypes.string,
-    tab: PropTypes.string,
-    img: PropTypes.string,
-    author: PropTypes.string
+    headline: PropTypes.string.isRequired,
+    tab: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
+    author: PropTypes.string.isRequired
   })
 };
 

@@ -64,12 +64,9 @@ export default class Carousel extends Component {
     };
   }
   componentDidMount() {
-    this.setState(
-      {
-        carouselData: carouselData
-      },
-      () => console.log(this.state.carouselData)
-    );
+    this.setState({
+      carouselData: carouselData
+    });
   }
 
   leftClick = () => {
