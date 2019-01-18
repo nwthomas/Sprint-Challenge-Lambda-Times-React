@@ -22,10 +22,7 @@ const Cards = props => {
     <CardsContainer>
       {props.cards.map((card, index) => {
         return <Card card={card} key={`key ${index}`} />;
-      })
-      /* Using the cards prop, map over the list creating a 
-          new Card component for each passing the card as the only prop*/
-      }
+      })}
     </CardsContainer>
   );
 };
