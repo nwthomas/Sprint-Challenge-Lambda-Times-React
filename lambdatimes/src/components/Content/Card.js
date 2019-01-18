@@ -47,9 +47,9 @@ const CardClass = styled.div`
 const Card = props => {
   return (
     <CardClass>
-      <div className="headline">{props.card.headline}</div>
-      <div className="author">
-        <div className="img-container">
+      <div>{props.card.headline}</div>
+      <div>
+        <div>
           <img src={props.card.img} alt="Profile avatar" />
         </div>
         <span>By {props.card.author}</span>
